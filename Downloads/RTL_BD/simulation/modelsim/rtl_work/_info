@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/larissaq/Desktop/RTL_BD/simulation/modelsim
+vRTL_BD
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I2VYbD:`zTSH4HWhg>c`?f1
+V43PLa7BMfkJb1Vl<hBC_o1
+S1
+Z2 d/home/larissaq/Desktop/RTL_BD/simulation/modelsim
+w1489500052
+8/home/larissaq/Desktop/RTL_BD/RTL_BD.sv
+F/home/larissaq/Desktop/RTL_BD/RTL_BD.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+n@r@t@l_@b@d
+!i10b 1
+!s100 Si^4Dn?l?zzm=LQjDTg:Q2
+!s105 RTL_BD_sv_unit
+!s85 0
+!s108 1489500067.619370
+!s107 /home/larissaq/Desktop/RTL_BD/RTL_BD.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/larissaq/Desktop/RTL_BD|/home/larissaq/Desktop/RTL_BD/RTL_BD.sv|
+!s101 -O0
+Z5 !s92 -sv -work work +incdir+/home/larissaq/Desktop/RTL_BD -O0
+vtb
+R1
+!i10b 1
+!s100 7Oj`eW7^hG39mgf]^N0:e0
+Ik>iL]h]8]QCW`?kZ`NY8L0
+VV@Xn<HnSRM[I5c1?BH]3a3
+!s105 tb_sv_unit
+S1
+R2
+w1489499485
+8/home/larissaq/Desktop/RTL_BD/tb.sv
+F/home/larissaq/Desktop/RTL_BD/tb.sv
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1489500067.635593
+!s107 /home/larissaq/Desktop/RTL_BD/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/larissaq/Desktop/RTL_BD|/home/larissaq/Desktop/RTL_BD/tb.sv|
+!s101 -O0
+R4
+R5

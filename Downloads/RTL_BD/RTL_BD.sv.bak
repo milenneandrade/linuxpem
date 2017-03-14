@@ -1,0 +1,64 @@
+module RTL_BD(
+
+input logic clk,
+input logic rst,
+input logic [7:0]conversor_adc,
+output logic [7:0]out
+
+);
+
+logic [4:0]timer;
+int cont;
+int flag = 0;
+int i = 0;
+
+always_ff@(posedge clk)
+begin
+
+	if(~rst)
+	begin
+		timer <= 'b0;
+		
+	end
+	
+	else
+	
+		begin
+			
+			timer <= timer + 'b1;
+			
+			if (flag == 0 && conversor_adc[7] == 0)
+				begin 
+				cont++;
+				flag = 1;
+				end
+				
+			if (flag == 1 && conversor_adc[7] == 1)
+				begin 
+				cont++;
+				flag = 0;
+				end
+				
+				
+				if (timer <= 5'b11111)
+				begin
+					
+					i++;
+					
+					if (cont <= 1)
+					
+					out[i] = 0;
+					cont = 0;
+					
+					else
+					
+					out[i] = 1;
+					cont = 0;
+						
+					end					
+					
+				end
+	
+	end
+
+endmodule
